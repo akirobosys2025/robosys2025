@@ -3,12 +3,15 @@
 
 import sys
 
+def tonom(s):
+    try:
+        ans += int(s)
+    except:
+        ans += float(s)
+
 ans = 0
 
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
+    ans += tonom(line)
 
 print(ans)
