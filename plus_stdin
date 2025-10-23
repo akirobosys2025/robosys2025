@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Akira Omoto aki.robosys2025@gmail.com
+
 import sys
 
 ans = 0
