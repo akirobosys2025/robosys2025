@@ -1,0 +1,9 @@
+name: test
+on: push
+jobs: 
+test:
+  run-on: ubuntu-22.04
+  steps:
+  - uses: actions/chackout@v3
+  - name: All test
+    run: bash -xv ./test.bash
