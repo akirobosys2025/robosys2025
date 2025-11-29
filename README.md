@@ -26,6 +26,14 @@ echo 30 | ./prime
 echo 60 | ./prime
 # 2 2 3 5 と返される
 ```
+## 開発環境
+- OS: ubuntu 22.04
+- Python: 3.10.12
+- テストVer.
+  ・Python 3.7
+　・Python 3.8
+　・Python 3.9
+　・Python 3.10　
 ## LICENSE
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージは，[ryuichiueda](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
