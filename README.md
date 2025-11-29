@@ -2,8 +2,13 @@
 このリポジトリはロボットシステム学の授業で課題提出を行うためのものです.
 
 ![test](https://github.com/akirobosys2025/robosys2025/actions/workflows/test.yml/badge.svg)
-
-## 導入手順
+## 目次
+- 導入方法
+- plus
+- prime
+- 開発環境
+- LICENSE
+## 導入方法
 次の手順でリポジトリをインストールできます.
 ```
 # インストールしたいディレクトリで行う.
