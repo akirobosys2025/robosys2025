@@ -24,6 +24,7 @@ $ echo 30 | ./prime
 2 3 5 
 $ echo 60 | ./prime
 2 2 3 5
+
 # 0と1を入力した場合は値を返さない
 $ echo 1 | ./prime
 
