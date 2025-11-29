@@ -7,7 +7,7 @@
 次の手順でリポジトリをインストールできます.
 ```
 # インストールしたいディレクトリで行う.
-git clone git@github.com:akirobosys2025/robosys2025.git
+$ git clone git@github.com:akirobosys2025/robosys2025.git
 ```
 ## plus
 標準入力した数字の列を全て足した値を標準出力します.  
