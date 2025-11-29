@@ -4,9 +4,9 @@
 ![test](https://github.com/akirobosys2025/robosys2025/actions/workflows/test.yml/badge.svg)
 
 ## 導入手順
-```bash
+```
 git clone git@github.com:akirobosys2025/robosys2025.git
-```bash
+```
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージは，[ryuichiueda](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
