@@ -43,10 +43,10 @@ $ echo 30 | ./prime | tr ' ' '\n' | ./plus
 - OS: Ubuntu 22.04.5 LTS
 - Python: 3.10.12
 - 動作テストVer. :   
-	- Python 3.7  
-	- Python 3.8  
-	- Python 3.9  
-	- Python 3.10  
+	- Python: 3.7  
+	- Python: 3.8  
+	- Python: 3.9  
+	- Python: 3.10  
 ## LICENSE
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージは，[ryuichiueda](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
