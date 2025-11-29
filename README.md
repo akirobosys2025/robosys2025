@@ -4,6 +4,8 @@
 ![test](https://github.com/akirobosys2025/robosys2025/actions/workflows/test.yml/badge.svg)
 
 ## 導入手順
+次の手順でリポジトリをインストールできます。
+インストールしたいディレクトリで以下のように打ち込んでください。
 ```
 git clone git@github.com:akirobosys2025/robosys2025.git
 ```
