@@ -40,9 +40,9 @@ $ echo 30 | ./prime | tr ' ' '\n' | ./plus
 10
 ```
 ## 開発環境
-- OS: Ubuntu 22.04.5 LTS
-- Python: 3.10.12
-- 動作テストVer. :   
+- OS： Ubuntu 22.04.5 LTS
+- Python： 3.10.12
+- 動作テストVer. ：   
 	- Python: 3.7  
 	- Python: 3.8  
 	- Python: 3.9  
