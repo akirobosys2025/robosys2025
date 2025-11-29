@@ -13,18 +13,19 @@ git clone git@github.com:akirobosys2025/robosys2025.git
 標準入力した数字の列を全て足した値を標準出力します.  
 <例>
 ```
-seq 5 | ./plus
-# 10 と返される
+$ seq 5 | ./plus
+10
 ```
 ## prime
 標準入力した数字を素因数分解し全ての素因数を行で標準出力します.  
 <例>
 ```
-echo 30 | ./prime
-# 2 3 5 と返される
+$ echo 30 | ./prime
+2 3 5 
+$ echo 60 | ./prime
+2 2 3 5
+$ echo 1 | ./prime
 
-echo 60 | ./prime
-# 2 2 3 5 と返される
 ```
 ## 開発環境
 - OS:　ubuntu 22.04
