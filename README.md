@@ -27,8 +27,8 @@ echo 60 | ./prime
 # 2 2 3 5 と返される
 ```
 ## 開発環境
-- OS: ubuntu 22.04
-- Python: 3.10.12
+- OS:　ubuntu 22.04
+- Python:　3.10.12
 - テストVer.   
 	- Python 3.7  
 	- Python 3.8  
