@@ -26,9 +26,9 @@ $ echo 60 | ./prime
 2 2 3 5
 ```
 ## 開発環境
-- OS:　ubuntu 22.04
-- Python:　3.10.12
-- テストVer.   
+- OS: Ubuntu 22.04.5 LTS
+- Python: 3.10.12
+- 動作テストバージョン:   
 	- Python 3.7  
 	- Python 3.8  
 	- Python 3.9  
