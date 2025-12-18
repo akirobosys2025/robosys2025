@@ -10,17 +10,17 @@ ng () {
 res=0
 
 test_plus() {
-    	### NORMAL INPUT ###
-    	out=$(seq 5 | ./plus)
-    	test "${out}" = 15 || ng "$LINENO"
+	### NORMAL INPUT ###
+	out=$(seq 5 | ./plus)
+	test "${out}" = 15 || ng "$LINENO"
 
-    	### STRANGE INPUT ###
-    	out=$(echo | ./plus)
-    	test "$?" = 1      || ng "$LINENO"
-    	test "${out}" = "" || ng "$LINENO"
+	### STRANGE INPUT ###
+	out=$(echo | ./plus)
+	test "$?" = 1      || ng "$LINENO"
+	test "${out}" = "" || ng "$LINENO"
 
-    	### STRANGE INPUT ###
-    	out=$(echo あ | ./plus)
+	### STRANGE INPUT ###
+	out=$(echo あ | ./plus)
 	test "$?" = 1      || ng "$LINENO"
 	test "${out}" = "" || ng "$LINENO"
 }
