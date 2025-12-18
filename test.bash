@@ -37,8 +37,8 @@ test_prime() {
 
 	### STRANGE INPUT ###
 	out=$(echo あ | ./prime)
-        test "$?" = 1      || ng "$LINENO"
-        test "${out}" = "" || ng "$LINENO"
+	test "$?" = 1      || ng "$LINENO"
+	test "${out}" = "" || ng "$LINENO"
 }
 
 run_test() {
