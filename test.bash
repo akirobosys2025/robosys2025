@@ -48,7 +48,7 @@ run_test() {
 }
 
 run_test test_plus
-#run_test test_prime
+run_test test_prime
 
 if test "${res}" = 0 ; then
     echo "OK"
