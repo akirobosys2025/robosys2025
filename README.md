@@ -49,11 +49,7 @@ $ echo 30 | ./prime | tr ' ' '\n' | ./plus
 ## 開発環境
 - OS: Ubuntu 22.04.5 LTS
 - Python: 3.10.12
-- 動作テストVer. :   
-	- Python: 3.7  
-	- Python: 3.8  
-	- Python: 3.9  
-	- Python: 3.10  
+- 動作テストVer. : Python 3.7，3.8，3.9，3.10  
 
 ## LICENSE
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
