@@ -1,5 +1,6 @@
 # robosys2025
-このリポジトリはロボットシステム学の授業で課題提出を行うためのものです．
+このリポジトリはロボットシステム学の授業で課題提出を行うためのものです．  
+このリポジトリのコードはGitHub ActionsでPython 3.7，3.8，3.9，3.10での動作テストを行っています．
 
 ![test](https://github.com/akirobosys2025/robosys2025/actions/workflows/test.yml/badge.svg)
 
@@ -49,11 +50,8 @@ $ echo 30 | ./prime | tr ' ' '\n' | ./plus
 ## 開発環境
 - OS: Ubuntu 22.04.5 LTS
 - 開発言語: Python 3.10.12
-- GitHub Actions test Ver. : Python 3.7，3.8，3.9，3.10  
 
 ## LICENSE
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージの一部は，[上田隆一の講義資料](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
-- plusの内容は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-	- [ryuichiueda/my_slides robosys_2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 Aki Moto
