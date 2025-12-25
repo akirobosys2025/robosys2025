@@ -1,13 +1,13 @@
 # robosys2025
 このリポジトリはロボットシステム学の授業で課題提出を行うためのものです．  
-このリポジトリのコードはGitHub ActionsでPython 3.7，3.8，3.9，3.10での動作テストを行っています．
+primeは素因数分解を行うためのコマンドです．
+このリポジトリのコマンドはGitHub ActionsでPython 3.7，3.8，3.9，3.10での動作テストを行っています．
 
 ![test](https://github.com/akirobosys2025/robosys2025/actions/workflows/test.yml/badge.svg)
 
 ## 目次
 - 導入方法
-- plus
-- prime
+- prime ･･･ 素因数分解を行うコマンド
 - 開発環境
 - LICENSE
 
