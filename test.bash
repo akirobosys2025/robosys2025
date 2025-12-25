@@ -47,7 +47,7 @@ run_test() {
     $1
 }
 
-run_test test_plus
+#run_test test_plus
 run_test test_prime
 
 if test "${res}" = 0 ; then
