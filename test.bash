@@ -9,22 +9,6 @@ ng () {
 
 res=0
 
-test_plus() {
-	### NORMAL INPUT ###
-	out=$(seq 5 | ./plus)
-	test "${out}" = 15 || ng "$LINENO"
-
-	### STRANGE INPUT ###
-	out=$(echo | ./plus)
-	test "$?" = 1      || ng "$LINENO"
-	test "${out}" = "" || ng "$LINENO"
-
-	### STRANGE INPUT ###
-	out=$(echo あ | ./plus)
-	test "$?" = 1      || ng "$LINENO"
-	test "${out}" = "" || ng "$LINENO"
-}
-
 test_prime() {
 	### NORMAL INPUT ###
 	out=$(echo 30 | ./prime)
@@ -47,7 +31,6 @@ run_test() {
     $1
 }
 
-#run_test test_plus
 run_test test_prime
 
 if test "${res}" = 0 ; then
